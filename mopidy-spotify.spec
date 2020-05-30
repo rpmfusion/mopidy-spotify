@@ -2,7 +2,7 @@
 
 Name:           mopidy-spotify
 Version:        4.0.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Mopidy extension for playing music from Spotify
 
 License:        ASL 2.0
@@ -46,6 +46,9 @@ rm MANIFEST.in
 
 
 %changelog
+* Sat May 30 2020 Leigh Scott <leigh123linux@gmail.com> - 4.0.1-2
+- Rebuild for python-3.9
+
 * Mon Dec 23 2019 Tobias Girstmair <t-rpmfusion@girst.at> - 4.0.1-1
 - Initial RPM Release
 
