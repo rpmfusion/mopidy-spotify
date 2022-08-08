@@ -2,7 +2,7 @@
 
 Name:           mopidy-spotify
 Version:        4.1.1
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Mopidy extension for playing music from Spotify
 
 License:        ASL 2.0
@@ -46,6 +46,10 @@ rm MANIFEST.in
 
 
 %changelog
+* Mon Aug 08 2022 RPM Fusion Release Engineering <sergiomb@rpmfusion.org> - 4.1.1-2
+- Rebuilt for https://fedoraproject.org/wiki/Fedora_37_Mass_Rebuild and ffmpeg
+  5.1
+
 * Mon Feb 28 2022 Sérgio Basto <sergio@serjux.com> - 4.1.1-1
 - Update mopidy-spotify to 4.1.1
 
